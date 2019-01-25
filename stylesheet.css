@@ -1,0 +1,333 @@
+/*-------  ここから共通のCSS  --------*/
+
+body{
+  margin: 0;
+  font-family: Meiryo;;
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-------  ここまで共通のCSS  --------*/
+
+/*-------  ここからヘッダー  --------*/
+
+.header{
+  width: 1000px;
+  height: 74px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-wrapper{
+  width: 961px;
+  height: 34px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 28px;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list a {
+  float: right;
+  color: #808080;
+  padding-top: 37px;
+  padding-left: 13px;
+  font-size: 14px;
+}
+
+/*-------  ここまでヘッダー  --------*/
+
+/*-------  ここからナビゲーション  --------*/
+
+.Nav{
+  background-color: #cccccc;
+  height: 50px;
+  color: #fff;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.globalNav ul{
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+}
+.globalNav li{
+  float: left;
+  width: 249px;
+  border-right: 1px solid #DDD;
+}
+
+.globalNav li a {
+  background-color: #cccccc;
+  display: block;
+  padding: 17px 50px;
+  text-align: center;
+  color: black;
+}
+
+.globalNav a:hover{
+  color:  #d8e181;
+  display: block;
+}
+
+/*-------  ここまでナビゲーション --------*/
+
+/*-------  ここからトップ  --------*/
+
+.top{
+  background: #EEEEEE;
+  height: 173px;
+  color: #808080;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.top img{
+    float: left;
+    padding-left: 35px;
+}
+
+.top-text{
+  padding-top: 30px;
+  padding-left: 260px;
+}
+
+.top-text h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 32px;
+  color: #333333;
+  font-weight: normal;
+}
+
+.top-text p{
+  color: #333333;
+  font-size: 14px;
+}
+
+/*-------  ここまでトップ  --------*/
+
+/*-------  ここからメイン --------*/
+
+.main-wrapper{
+  height: 770px;
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.main{
+  height: 100%;
+  color: black;
+  width: 740px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 28px;
+  margin-right: 12px;
+  margin-bottom: 55px;
+}
+
+.main-category{
+  float: left;
+}
+
+.main-category ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-category ul li{
+  display: inline;
+  color: black;
+  font-size: 14px;
+}
+
+.main-category-home{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.main-category-baby{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.main-category-tops{
+  color: black;
+}
+
+.main-contents{
+  margin-top: 50px;
+  text-align: left;
+}
+
+.main-recommend-product h3{
+  font-size: 22px;
+  background-color: #d8e181;
+  padding: 12px 551px 13px 13px;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.main-recommend-product p{
+  padding-bottom:15px; 
+  border-bottom: 2px dotted grey;
+  font-size: 14px;
+}
+
+.see-more a{
+  font-size: 14px;
+  float: right;
+  text-decoration: underline;
+  color: skyblue;
+}
+
+.product{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.product p{
+  font-size: 14px;
+  padding-bottom:15px; 
+  border-bottom: 2px dotted grey;
+}
+
+.text-contents{
+  margin-top: 0;
+}
+
+.price{
+  color: red;
+  font-size: 16px;
+}
+
+.main-size h3{
+  font-weight: normal;
+}
+
+table{
+  border-collapse:collapse;
+  font-size: 14px;
+}
+
+th{
+  font-weight: normal;
+  background-color: #d8e181;
+}
+
+td,th{
+  padding: 8px 33px;
+}
+
+.teble-color{
+  background-color: #F6FDD3;
+}
+
+.main-recommend-item h3{
+  font-size: 18px;
+  background-color: #d8e181;
+  padding: 15px 358px 13px 13px;
+  border-radius: 4px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.item-category ul{
+  width: 800px;
+}
+
+.item-category li{
+  float: left;
+  font-size: 14px;
+  margin-right:20px;
+  width:200px;
+}
+
+.arrow{
+  color: gray;
+}
+
+.item-list{
+  text-decoration: underline;
+  color: skyblue;
+}
+
+/*-------  ここまでメイン  --------*/
+
+/*-------  ここからサイドバー  --------*/
+
+.sidebar{
+  height: 426px;
+  color: #fff;
+  width: 219px;
+  float: left;
+  padding-top: 20px; 
+}
+
+.sidebar-navi {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-navi li { 
+  display: inline; 
+}
+
+.sidebar-navi li a {
+  text-align: left;
+  margin: 0;
+  padding: 5px 0 4px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  color: black;
+  border: 1px solid #dee7ec;
+  padding-left: 12px;
+}
+
+.sidebar-navi li a:hover {
+  background-color: #CDDD6F;
+  font-size: 18px;
+}
+
+/*-------  ここまでサイドバー  --------*/
+
+/*-------  ここからフッター  --------*/
+
+.footer{
+  height: 80px;
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #808080;
+}
+
+.footer p{
+  font-size: 12px;
+  border-top: 1px solid #dee7ec;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/*-------  ここまでフッダー  --------*/
